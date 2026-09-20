@@ -1,0 +1,14 @@
+{
+  "name": "store-ai-advisor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "门店AI顾问统一服务层",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js",
+    "check": "node --check server.js && node --check app.js"
+  }
+}
